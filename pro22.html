@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel=”stylesheet” href=”css/bootstrap.css”>
+<link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <style>
+      * {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+}
+
+.image {
+  
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1; 
+  width: 92%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+      #example1 {
+  background-image: url(https://wallpapercave.com/dwp2x/x9vIgHg.jpg);
+  
+  background-size:cover;
+  height:600px;
+  
+  background-repeat: no-repeat, repeat;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.zoom:hover {
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
+}
+      </style>
+      
+</head>
+<body bg-color="white">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+  crossorigin="anonymous"></script>
+  
+  <div id="example1">
+    <nav class="navbar navbar-default "  style="padding:0px; py:0;" width="10px">
+     
+      <div class="d-flex justify-content-between flex-wrap align-items-center container-fluid" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto" id="nav">
+            <li class="nav-item" style="padding-left:10px;padding-right: 50px;size: 100px;">Call Us: +10 (89) 675 5456</li>
+            <li class="nav-item">info@rolax.com</li>
+          
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item" style="padding:0px"><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/225px-Instagram_logo_2022.svg.png" height="30" width="30"></a></li>
+            <li class="nav-item" style="padding:0px"><a href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/225px-Facebook_f_logo_%282021%29.svg.png" height="30" width="30"></a></li>
+            <li class="nav-item" style="padding:0px"><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/225px-Twitter-logo.svg.png" height="30" width="30"></a></li>
+          </ul>
+        </div>
+      </nav>
+   
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" style="padding-down:0px">
+      
+
+      <div class="d-flex justify-content-between flex-wrap align-items-center">
+        
+        <ul class="nav navbar-nav " id="nav">
+          <li style="font-size: 55px;color:aliceblue;padding-left:10px">ROLAX</li>
+          </ul>
+       
+         <ul class="nav navbar-nav navbar-right">
+          
+          <li style="padding-left:40px;padding-right: 40px;size: 150px;padding-top:10px;"><a class="nav-link" href="#" style="font-size:20px;color:black;padding-bottom: 20%;" id="hov">Home</a></li>
+          <li style="padding-left:40px;padding-right: 40px;size: 150px;padding-top:10px;"><a class="nav-link" href="#" style="font-size:20px;color:black;padding-bottom: 20%;">Rooms</a></li>
+          <li style="padding-left:40px;padding-right: 40px;size: 150px;padding-top:10px;"><a class="nav-link" href="#" style="font-size:20px;color:black;padding-bottom: 20%;">About</a></li>
+          <li style="padding-left:40px;padding-right: 40px;size: 150px;padding-top:10px;"><a class="nav-link" href="#" style="font-size:20px;color:black;padding-bottom: 20%;">Blog</a></li>
+          <li style="padding-left:40px;padding-right: 40px;size: 150px;padding-top:10px;"><a class="nav-link" href="#" style="font-size:20px;color:black;;padding-bottom: 20%;">Contact us</a></li>
+
+          <li style="padding-left:40px;padding-right: 40px;size: 150px;padding-top:10px;" class="active">
+            <a class="nav-link" href="http://127.0.0.1:5500/fill.html" style="font-size:20px;color:red;padding-bottom: 20%;"><b>Booknow</b></a>
+
+          </li>
+        </ul>
+       </div>
+          
+    </nav>
+    <hr>
+    <br><br><br><br>
+    <p style="color:azure;font-size:60px;font-family: fantasy;" align="center">Rest Journey in Single</p><br>
+    <p  style="color:azure;font-size:60px;font-family: fantasy;" align="center">step, in the breathtaking</p><br>
+   
+   <br>
+   
+    <br>
+    
+    
+      <br>
+     
+  <br><br><br><br><br>
+  <div class="container-fluid">
+    <div class="zoom">
+   <img src="https://images.pexels.com/photos/2631613/pexels-photo-2631613.jpeg?auto=compress&cs=tinysrgb&w=600"  class="img-fluid rounded mx-auto d-block" style="float:left; margin-left: 50px;padding: 20px;" height="500px" width="600px">
+    </div>
+    
+   <p style="font-family:Garamond;font-size :50px;margin-left: 300px;"><b><i>Luxury & Comfort <br>Our services and <br>wonders of Prague</i></b></p>
+   <p style="font-size:20px;font-family:Times New Roman, Times, serif;">The concept and service of the best luxury hotels in Asturias in our sophisticated Urban Double and Unique Junior Suite rooms, with the possibility of enjoying a furnished terrace in our Double Urban Loft and Unique Junior Loft Suite.</p><br><br><br>
+   <a href="#" class="btn btn-primary btn-lg " role="button" aria-disabled="true">Learn more</a><br><br><br><br><br>
+   <p style="font-size:50px;font-family:Garamond;margin-left:70px;" align="left" ><b><i>Our Rooms....</i></b></p>
+   <p style="font-size:20px;margin-left:80px;font-family:Times New Roman, Times, serif;" >The concept and service of the<br> best luxury hotels in Asturias in our sophisticated.</p><br><br>
+   </div>
+   <marquee behavior="scroll" direction="left">
+    <img src="https://wallpapercave.com/dwp2x/wp6957233.jpg" width="600" height="400" >
+    <img src="https://wallpapercave.com/dwp2x/wp6957332.jpg" width="600" height="400" >
+    <img src="https://wallpapercave.com/wp/wp6181354.jpg" width="600" height="400" >
+    <img src="https://wallpapercave.com/wp/wp4611904.jpg" width="600" height="400" >
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8J5aBnlG1wiJr5p1B9WsVQA4XwaW6hsgaIw&usqp=CAU" width="600" height="400" >
+    <br><br><br><br>
+    <p style="font-size:30px;font-family:'Times New Roman', Times, serif;" align="center">We are luxurious in that simple way. Our hot water is heated using solar panels. Our main goal is that you will leave us with the urge to want to visit again.</p>
+    
+  </marquee>
+  <br><br><br><br>
+  <p style="font-size:50px;font-family:'Times New Roman', Times, serif;padding-left:300px;padding-right:300px;" align="center">Surrounded by galleries, boutiques, restaurants and cafés, our Hotel is a hub of energy and style.</p>
+  <div class="row">
+    <div class="column">
+      <div class="container">
+      <img src="https://preview.colorlib.com/theme/rolax/assets/img/gallery/guest1.jpg" alt="Snow" style="padding:2px;" class="image">
+      <div class="overlay">Free drinks</div></div>
+    </div>
+    <div class="column">
+      <div class="container">
+      <img src="https://preview.colorlib.com/theme/rolax/assets/img/gallery/guest2.jpg" alt="Forest" style="width:100%;padiing:2px;" class="image">
+      <div class="overlay">Free breakfast</div>
+    </div>
+    </div>
+    <div class="column">
+      <div class="container">
+      <img src="https://preview.colorlib.com/theme/rolax/assets/img/gallery/guest3.jpg" alt="Mountains" style="width:100%;padding:2px;" class="image">
+      <div class="overlay">Free dinner</div>
+      </div>
+    </div>
+  </div>
+ <div style="background-color: black;">
+  <h3 style="color: antiquewhite;">Rolax Resort</h3>
+  <hr>
+  <h3 style="color: antiquewhite;">Contact us</h3><br>
+  <p style="color: antiquewhite;font-size: medium;">
+    76/A, Green Lane, Dhanmondi, NYC<br>
+    10 (87) 738-3940<br>
+    contact@carwash.com</p>
+   
+ </div>
+</body>  
+</html>
